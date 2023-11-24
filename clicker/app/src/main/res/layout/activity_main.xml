@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353333"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:gravity="center"
+        android:text="Clicks 0"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+    <TextView
+        android:id="@+id/textViewx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0x"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="247dp"
+        android:layout_height="237dp"
+        android:layout_gravity="center"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/cok"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="247dp"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+
+        android:id="@+id/button10x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10x"
+        android:onClick="onClick10x"
+        android:layout_marginTop="32dp"/>
+    <Button
+        android:id="@+id/button100x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100x"
+        android:onClick="onClick100x"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/button1000x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1000x"
+        android:onClick="onClick1000x"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/resetbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:onClick="onClickres"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
