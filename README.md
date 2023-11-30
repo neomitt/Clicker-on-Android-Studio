@@ -6,7 +6,7 @@ This clicker on Android Studio
 ## Interface
 ![Screenshot](https://github.com/neomitt/Clicker-on-Android-Studio/blob/main/screnshot3.png)
 ## Code fragment
-```python
+```java
     public void onClick(View v){
         TextView textView = findViewById(R.id.textView);
 
